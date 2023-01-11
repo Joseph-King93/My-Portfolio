@@ -1,9 +1,7 @@
-function HomePage () {
+export default function HomePage () {
     return (
         <>
-        HomePage
+            HomePage
         </>
     )
 }
-
-export default HomePage;
