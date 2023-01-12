@@ -14,7 +14,7 @@ export default function AboutPage() {
                 <h3>MERN</h3>
             </div>
             <Container fluid>
-                <Row className='align-items-start'>
+                <Row className='text-center align-items-center'>
                     <Col>
                         <Image src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png" fluid />
                     </Col>
@@ -29,26 +29,28 @@ export default function AboutPage() {
                     </Col>
                 </Row>
                 <br></br>
-                <Row>
-                    <Col>
+                <br></br>
+                <br></br>
+                <Row md={7} className='text-center align-items-center'>
+                    <Col xs={3} md={true}>
                         <Image src="https://mongoosejs.com/docs/images/mongoose5_62x30_transparent.png" fluid/>
                     </Col>
-                    <Col>
+                    <Col xs={3} md={true}>
                         <Image src="https://img.icons8.com/color/240/null/java-web-token.png" fluid/>
                     </Col>
-                    <Col>
+                    <Col xs={3} md={true}>
                         <Image src="https://oauth.net/images/oauth-logo-square.png" fluid/>
                     </Col>
-                    <Col>
+                    <Col xs={3} md={true}>
                         <Image src="https://raw.githubusercontent.com/jsx-ir/logo/master/jsx.png" fluid/>
                     </Col>
-                    <Col>
+                    <Col xs={4} md={true}>
                         <Image src="https://img.icons8.com/color/240/null/html-5--v1.png" fluid/>
                     </Col>
-                    <Col>
+                    <Col xs={4} md={true}>
                         <Image src="https://img.icons8.com/color/240/null/css3.png" fluid/>
                     </Col>
-                    <Col>
+                    <Col xs={4} md={true}>
                         <Image src="https://img.icons8.com/color/240/null/javascript--v1.png" fluid/>
                     </Col>
                 </Row>
@@ -59,7 +61,7 @@ export default function AboutPage() {
                 <h3>Django</h3>
             </div>
             <Container fluid>
-                <Row>
+                <Row className='align-items-center'>
                     <Col></Col>
                     <Col>
                         <Image src="https://img.icons8.com/ios/250/null/django.png" fluid />
@@ -67,7 +69,7 @@ export default function AboutPage() {
                     <Col></Col>
                 </Row>
                 <br></br>
-                <Row>
+                <Row className='align-items-center'>
                     <Col></Col>
                     <Col>
                         <Image src="https://img.icons8.com/color/240/null/postgreesql.png" fluid />
