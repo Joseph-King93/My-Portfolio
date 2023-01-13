@@ -24,6 +24,7 @@ export default function ProjectsPage() {
                     </Col>
                 </Row>
                 <br></br>
+                <br></br>
                 <Row className='align-items-center'>
                     <Col>
                         <a href="https://ancient-sea-57311.herokuapp.com/" target="_blank">
@@ -40,6 +41,7 @@ export default function ProjectsPage() {
                     </Col>
                 </Row>
                 <br></br>
+                <br></br>
                 <Row className='align-items-center'>
                     <Col>
                         <a href="https://shrouded-retreat-81056.herokuapp.com/" target="_blank">
@@ -55,6 +57,7 @@ export default function ProjectsPage() {
                         <p>This is a fitness app developed using Django and Python! Comes loaded with features such as template authentication, user permission and grouping assignment, and various styling arrangements made possible with Materialize CSS!</p>
                     </Col>
                 </Row>
+                <br></br>
                 <br></br>
                 <Row className='align-items-center'>
                     <Col>

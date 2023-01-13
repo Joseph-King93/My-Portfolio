@@ -12,6 +12,7 @@ export default function AboutPage() {
             <br></br>
             <div className='text-center'>
                 <h3>MERN</h3>
+                <p>I have experience working with Express only and Express + React projects! JSX, EJS, JWT, and Mongoose are among some of the langauages/tools I have used in projects! </p>
             </div>
             <Container fluid>
                 <Row className='text-center align-items-center'>
@@ -59,6 +60,7 @@ export default function AboutPage() {
             <br></br>
             <div className='text-center'>
                 <h3>Django</h3>
+                <p>I have experience working on both front-end and back-end with Django! I've utilized PostgreSQL and Materialize CSS with Django and enjoy the customization and tools that come with Django!</p>
             </div>
             <Container fluid>
                 <Row className='text-center align-items-center'>
@@ -76,6 +78,9 @@ export default function AboutPage() {
                     </Col>
                     <Col>
                         <Image src="https://img.icons8.com/fluency/144/null/python.png" fluid />
+                    </Col>
+                    <Col>
+                        <Image src="https://iconape.com/wp-content/png_logo_vector/materialize-logo.png" fluid />
                     </Col>
                     <Col></Col>
                 </Row>
