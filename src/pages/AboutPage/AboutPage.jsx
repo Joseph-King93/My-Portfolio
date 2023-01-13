@@ -61,7 +61,7 @@ export default function AboutPage() {
                 <h3>Django</h3>
             </div>
             <Container fluid>
-                <Row className='align-items-center'>
+                <Row className='text-center align-items-center'>
                     <Col></Col>
                     <Col>
                         <Image src="https://img.icons8.com/ios/250/null/django.png" fluid />
@@ -69,7 +69,7 @@ export default function AboutPage() {
                     <Col></Col>
                 </Row>
                 <br></br>
-                <Row className='align-items-center'>
+                <Row className='text-center align-items-center'>
                     <Col></Col>
                     <Col>
                         <Image src="https://img.icons8.com/color/240/null/postgreesql.png" fluid />
