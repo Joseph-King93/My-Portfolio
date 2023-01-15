@@ -27,22 +27,22 @@ export const ContactUs = () => {
                     <Row style={{margin: 15}}>
                         <Col className="align-items-start">
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Label><strong>Name</strong></Form.Label>
+                                <Form.Label style={{color: "#7f8ea8"}}><strong>Name</strong></Form.Label>
                                 <Form.Control type="text" placeholder="Your Name Here" name="user_name" />
                             </Form.Group>
                         </Col>
                         <Col>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
-                                <Form.Label><strong>Email address</strong></Form.Label>
-                                <Form.Control type="email" placeholder="name@example.com" />
+                                <Form.Label style={{color: "#7f8ea8"}}><strong>Email address</strong></Form.Label>
+                                <Form.Control type="email" placeholder="YourEmail@Example.com" />
                             </Form.Group>
                         </Col>
                     </Row>
                     <Row style={{ margin: 15 }}>
                         <Col xs={12}>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                                    <Form.Label><strong>Message Me!</strong></Form.Label>
-                                <Form.Control as="textarea" rows={3} name="message"/>
+                                    <Form.Label style={{color: "#7f8ea8"}}><strong>Message Me!</strong></Form.Label>
+                                <Form.Control as="textarea" rows={3} name="message" placeholder='e.g. "We would like to Hire you!" or "Your account has been compromised. Kindly please clik this link to secure your account"'/>
                             </Form.Group>
                         </Col>
                         <Col xs={{ span: 3, offset: 9 }} className='align-items-start'>

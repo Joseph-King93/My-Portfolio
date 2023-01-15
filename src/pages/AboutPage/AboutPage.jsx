@@ -7,11 +7,11 @@ export default function AboutPage() {
     return (
         <>
             <div className='text-center'>
-                <h1>Technology Stacks</h1>
+                <h1 style={{color: "#7f8ea8"}}>Technology Stacks</h1>
             </div>
             <br></br>
             <div className='text-center'>
-                <h3>MERN</h3>
+                <h3 style={{color: "#7f8ea8"}}>MERN</h3>
                 <p>I have experience working with Express only and Express + React projects! JSX, EJS, JWT, and Mongoose are among some of the langauages/tools I have used in projects! </p>
             </div>
             <Container fluid>
@@ -59,7 +59,7 @@ export default function AboutPage() {
             <br></br>
             <br></br>
             <div className='text-center'>
-                <h3>Django</h3>
+                <h3 style={{color: "#7f8ea8"}}>Django</h3>
                 <p>I have experience working on both front-end and back-end with Django! I've utilized PostgreSQL and Materialize CSS with Django and enjoy the customization and tools that come with Django!</p>
             </div>
             <Container fluid>

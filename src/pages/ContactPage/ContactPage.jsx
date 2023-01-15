@@ -11,7 +11,7 @@ export default function ContactPage() {
             <Container>
                 <Row className="text-center">
                     <Col>
-                        <h1>Contact Me!</h1>
+                        <h1 style={{ color: "#7f8ea8" }}>Contact Me!</h1>
                     </Col>
                 </Row>
             </Container>         

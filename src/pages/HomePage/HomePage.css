@@ -1,3 +1,7 @@
 .home-name {
-    color: #5C6BC0;
+    color: #7f8ea8;
+}
+
+.profile-pic-radius {
+    border-top-right-radius: 25%;
 }
