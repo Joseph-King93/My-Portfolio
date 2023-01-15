@@ -8,6 +8,7 @@ export default function NavBar() {
         <Navbar expand="sm" collapseOnSelect bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand >Joseph King</Navbar.Brand>
+                    <Nav.Item>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className='me-auto'>
@@ -17,6 +18,7 @@ export default function NavBar() {
                             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
+                    </Nav.Item>
             </Container>
         </Navbar>
     );
