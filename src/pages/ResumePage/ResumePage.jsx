@@ -19,7 +19,7 @@ export default function ResumePage() {
                     Click <strong>The Button</strong> below!
                 </p>
                 <div className='text-center'>
-                    <a href="https://docs.google.com/document/d/1C0jQitn8GT9y1RPYY8Nd5bBMlQ_itzLf/edit?usp=sharing&ouid=114253510690230959510&rtpof=true&sd=true" target="_blank">
+                    <a href="https://docs.google.com/document/d/1C0jQitn8GT9y1RPYY8Nd5bBMlQ_itzLf/edit?usp=sharing&ouid=114253510690230959510&rtpof=true&sd=true" target="_blank" rel="noreferrer">
                         <Button><strong >The Button</strong></Button>
                     </a>
                 <p style={{fontSize: 12, marginTop: 20 }}>Too far...you passed the button</p>

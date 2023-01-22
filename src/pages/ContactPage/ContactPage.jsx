@@ -19,7 +19,7 @@ export default function ContactPage() {
             <Container style={{marginTop: 60}}>
                 <Row className='text-center align-items-center'>
                     <Col>
-                        <a href="https://github.com/Joseph-King93" target="_blank">
+                        <a href="https://github.com/Joseph-King93" target="_blank" rel="noreferrer">
                             <Image
                                 rounded
                                 fluid
@@ -29,7 +29,7 @@ export default function ContactPage() {
                         </a>
                     </Col>
                     <Col>
-                        <a href="https://www.linkedin.com/in/joseph-king-se/" target="_blank">
+                        <a href="https://www.linkedin.com/in/joseph-king-se/" target="_blank" rel="noreferrer">
                             <Image
                                 rounded
                                 fluid
