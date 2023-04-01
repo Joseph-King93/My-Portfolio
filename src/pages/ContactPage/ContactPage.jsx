@@ -12,6 +12,7 @@ export default function ContactPage() {
                 <Row className="text-center">
                     <Col>
                         <h1 style={{ color: "#7f8ea8" }}>Contact Me!</h1>
+                        <p>Email me below at: <strong>J.King61693@gmail.com</strong></p>
                     </Col>
                 </Row>
             </Container>         
