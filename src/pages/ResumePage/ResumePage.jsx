@@ -15,7 +15,6 @@ export default function ResumePage() {
                     My Resume
                 </h1>
                 
-
                 <p className='text-center'>
                     {/* Resume is found here on the Resume Page!
                     <br></br> */}
