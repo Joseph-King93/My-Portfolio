@@ -13,8 +13,7 @@ export default function ResumePage() {
             <Container className='text-center' style={{ padding: 25 }}>
                 <h1 className='text-center' style={{ color: "#7f8ea8" }}>
                     My Resume
-                </h1>
-                
+                </h1>               
                 <p className='text-center'>
                     {/* Resume is found here on the Resume Page!
                     <br></br> */}
