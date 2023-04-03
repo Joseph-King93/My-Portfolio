@@ -141,12 +141,12 @@ export default function ProjectsPage() {
                         <p>This is a recreation of the classic game Battleship using only vanilla HTML, CSS, and JS!</p>
                         <Row>
                             <Col md={6}>
-                                <a href="https://ancient-sea-57311.herokuapp.com/" target="_blank" rel="noreferrer">
+                                <a href="https://joseph-king93.github.io/battleship/" target="_blank" rel="noreferrer">
                                     <Image
                                         rounded
                                         fluid
                                         style={{ height: 50 }}
-                                        src="/built-on-heroku-light.svg"
+                                        src="/github-mark.png"
                                     />
                                 </a>
                                 <p style={{ color: "#7f8ea8" }}><strong>Live App</strong></p>
