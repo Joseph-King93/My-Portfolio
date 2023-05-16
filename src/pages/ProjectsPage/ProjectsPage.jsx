@@ -7,9 +7,46 @@ import Col from 'react-bootstrap/Col'
 export default function ProjectsPage() {
     return (
         <>
-            <Container className='text-center' style={{margin: 15, padding: 25}}>
+            <Container className='text-center' style={{margin: 15, padding: 25}}>               
                 <Row className='align-items-center'>
+                    <Col md={6}>
+                        <Image
+                            rounded
+                            fluid
+                            src="/DNG-2.png"
+                        />
+                    </Col>
                     <Col>
+                        <h1 style={{ color: "#7f8ea8" }}>Deals & Glitches</h1>
+                        <p>This is my first paid freelance site. Client requested image/text posting, database and cloud infrastructure, and "hands off" web hosting for a promo/discount site to increase their affiliate business market reach. </p>
+                        <Row >
+                            <Col md={6}>
+                                <a href="https://www.dealsandglitches2group.com/" target="_blank" rel="noreferrer">
+                                    <Image
+                                        rounded
+                                        fluid
+                                        style={{ height: 50 }}
+                                        src="/built-on-heroku-light.svg"
+                                    />
+                                </a>
+                                <p style={{ color: "#7f8ea8" }}><strong>Live App</strong></p>
+                            </Col>
+                            <Col> 
+                                <Image
+                                    rounded
+                                    fluid
+                                    style={{ height: 50 }}
+                                    src="/github-mark.png"
+                                />                                
+                                <p style={{ color: "#7f8ea8" }}><strong>Private Repo - Code Available To Prospective Clients/Employers</strong></p>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+                <br></br>
+                <br></br>
+                <Row className='align-items-center'>
+                    <Col md={6}>
                         <Image 
                             rounded
                             fluid
@@ -48,7 +85,7 @@ export default function ProjectsPage() {
                 <br></br>
                 <br></br>
                 <Row className='align-items-center'>
-                    <Col>
+                    <Col md={6}>
                         <Image
                             xs={2}
                             rounded
@@ -88,7 +125,7 @@ export default function ProjectsPage() {
                 <br></br>
                 <br></br>
                 <Row className='align-items-center'>
-                    <Col>
+                    <Col md={6}>
                         <Image
                             rounded
                             fluid
@@ -127,7 +164,7 @@ export default function ProjectsPage() {
                 <br></br>
                 <br></br>
                 <Row className='align-items-center'>
-                    <Col>
+                    <Col md={6}>
                         <a href="https://joseph-king93.github.io/battleship/" target="_blank" rel="noreferrer">
                             <Image
                                 rounded
