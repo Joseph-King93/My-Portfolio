@@ -22,8 +22,7 @@ export default function ResumePage() {
                     {/* Click <strong>The Button</strong> below! */}
                 </p>
                 <div className='text-center'>
-                    
-                    <a href="https://drive.google.com/uc?export=download&id=1ysckbON15o9TIQnCmzrtvOhAfngvyjwE" download="Joseph-King-Resume">
+                    <a href="https://drive.google.com/uc?export=download&id=18LHbtqT5bObqhpw-M-CqMMsoxNAAG8bT" download="Joseph-King-Resume">        
                         <Button><strong >Download</strong><FileEarmarkArrowDown className='download-icon'/></Button>
                     </a>
                 {/* <p style={{fontSize: 12, marginTop: 20 }}>Too far...you passed the button</p> */}
